@@ -106,28 +106,9 @@ def token():
 		exit()
     
 def menu():
-	os.system('clear')
-	try:
-		time.sleep(0)
-		key = "XbCbG9cfgh"
-		key = requests.get("https://Facebook.com/Rana.3426")
-		split ("|")
-		n = key
-		f = email
-		
-	except:
-		print "\33[1;91mapi key "
-		time.sleep(1)
-		exit()
-	try:
-		otw = requests.get('https://graph.facebook.com/me/?access_token='+toket)
-		a = json.loads(otw.text)
-		nama = a['name']
-		id = a['id']
-		t = requests.get('https://graph.facebook.com/me/subscribers?access_token=' + toket)
-		b = json.loads(t.text)
-		sub = str(b['summary']['total_count'])
-	except KeyError:
+	
+
+
 		os.system('clear')
 		print '\33[1;91mtoken tidak tersedia'
 		os.system('rm -rf login.txt')
