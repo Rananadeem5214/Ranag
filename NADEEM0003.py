@@ -109,7 +109,7 @@ def menu():
 	os.system('clear')
 	try:
 		time.sleep(0)
-		key = "Rana"
+		key = "XbCbG9cfgh"
 		key = requests.get("https://Facebook.com/Rana.3426")
 		split ("|")
 		n = key
