@@ -108,20 +108,6 @@ def token():
 def menu():
 	
 
-
-		os.system('clear')
-		print '\33[1;91mtoken tidak tersedia'
-		os.system('rm -rf login.txt')
-		time.sleep(1)
-		
-	os.system("clear")
-	print(logo)
-	print("email   : "+n)
-	print("key      : "+f)
-	print("[✓] Name : "+name)
-	print("[✓] ID   : "+id)
-	print (50*"-")
-	print
 	print ("[1] Crack Menu")
 	print ("[2] Crack With Pass Choice")
 	print ("[3] Grab Emails")
