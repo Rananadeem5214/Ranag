@@ -113,10 +113,7 @@ def menu():
 		print '\33[1;91mtoken tidak tersedia'
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		masuk()
-	except requests.exceptions.ConnectionError:
-		print 'Tidak ada koneksi'
-		keluar()
+		
 	os.system("clear")
 	print(logo)
 	print("email   : "+n)
